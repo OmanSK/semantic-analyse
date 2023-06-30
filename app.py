@@ -6,8 +6,8 @@ MODEL = SemanticModel()
 ANSWER = Answer()
 
 st.title('Semantic Analysis')
-st.write('This application will help you to determine if this review'
-        'is positive or negative, and its estimated ratin')
+st.write('This application will help you to determine if review'
+        'is positive or negative, and its estimated rating')
 
 text = st.text_area('Enter your text')
 button = st.button('Analysing ')
