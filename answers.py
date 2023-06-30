@@ -24,4 +24,6 @@ class Answer:
         semantic = self.get_semantic(label)
         if semantic is not None:
             rating = self.get_rating(score, semantic)
+            if rating == 0:
+                rating += 1
         return semantic, rating
